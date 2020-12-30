@@ -1,11 +1,11 @@
 import './App.css';
-import { button } from '@material-ui/core';
+import { Button } from '@material-ui/core';
 
 function App() {
   return (
     <div>
       Hello World
-      <button>hello button</button>
+      <Button color="primary">hello button</Button>
      
     </div>
   );
