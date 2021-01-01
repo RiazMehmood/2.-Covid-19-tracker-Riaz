@@ -1,13 +1,12 @@
 import './App.css';
-import { Button } from '@material-ui/core';
+import CountryPicker from './components/CountryPicker';
+
 
 function App() {
   return (
     <div>
-      Hello World
-      <Button color="primary">hello button</Button>
-     
-    </div>
+     <CountryPicker value="message from app component"/>
+     </div>
   );
 }
 
