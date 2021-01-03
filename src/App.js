@@ -1,13 +1,17 @@
-import './App.css';
-import CountryPicker from './components/CountryPicker';
+import React from 'react'
+import { GlobalData } from './components/GlobalData';
+import Header from './components/Header';
 
 
-function App() {
-  return (
-    <div>
-     <CountryPicker value="message from app component"/>
-     </div>
-  );
+export const App = () => {
+
+
+    return (
+        <div>
+            <Header />
+            <GlobalData />
+        </div>
+    )
 }
 
 export default App;
