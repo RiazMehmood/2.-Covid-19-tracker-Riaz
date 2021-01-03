@@ -41,4 +41,4 @@ jobs:
       
       # Deploy To Surge
       - name: Deploy React App To Surge
-        run: surge ./build covid19-tracker-riaz.surge.sh/ --token${{ secrets.SURGE_TOKEN }}
+        run: surge ./build covid19-tracker-riaz.surge.sh/ --token${{ secrets.SURGE_TOKEN_CORONA }}
